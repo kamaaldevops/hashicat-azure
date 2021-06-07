@@ -1,3 +1,7 @@
+resource "azurerm_resource_group" "example" {
+  name     = "my-resources"
+  location = "centralus"
+}
 module "network" {
   source              = "Azure/network/azurerm"
   resource_group_name = "${var.prefix}-workshop"
