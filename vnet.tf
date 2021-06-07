@@ -14,3 +14,4 @@ module "network" {
     "subnet2" : ["Microsoft.Sql"],
     "subnet3" : ["Microsoft.Sql"]
   }
+}
